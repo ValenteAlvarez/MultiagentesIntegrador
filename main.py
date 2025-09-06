@@ -47,7 +47,7 @@ class BouncingBallsModel(ap.Model):
 
 
 # Parameters
-parameters = {'agents': 10, 'steps': 100}
+parameters = {'agents': 10, 'steps': 200}
 model = BouncingBallsModel(parameters)
 model.setup()
 
